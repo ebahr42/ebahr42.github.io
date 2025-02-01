@@ -9,11 +9,11 @@ body {
 
 /* padding to headers */
 h1 {
-  
+  padding: 10px;
 }
 
 h2 {
-
+padding: 10px;
 }
 
 /* padding to paragraphs */
@@ -24,7 +24,11 @@ p {
 
 /* padding to list items */
 li {
-
+  padding: 10px;
 }
 
-/* blue border with rounded corners */
+/* blue border with rounded corners to img */
+header img {
+  border: 3px blue;
+  border-radius: 10px;
+}
