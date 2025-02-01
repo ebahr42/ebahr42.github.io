@@ -16,3 +16,15 @@ h2 {
 
 }
 
+/* padding to paragraphs */
+p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* padding to list items */
+li {
+
+}
+
+/* blue border with rounded corners */
