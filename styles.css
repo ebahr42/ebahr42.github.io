@@ -1,12 +1,13 @@
 /* CSS style page for the bike website */
 
-/* pixel sizes and background color*/
+/* pixel sizes and background color */
 body {
   margin: 10px;
   width: 725px;
   background-color: lightgreen;
 }
 
+/* padding to headers */
 h1 {
   
 }
