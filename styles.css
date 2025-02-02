@@ -32,3 +32,16 @@ header img {
   border: 3px blue;
   border-radius: 10px;
 }
+
+/* CSS for columns */
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
