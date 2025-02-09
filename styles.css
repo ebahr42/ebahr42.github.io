@@ -24,7 +24,7 @@ li {
 }
 
 /* blue border with rounded corners to img */
-header img {
+.bluetouch {
   border: 3px blue;
   border-radius: 10px;
 }
