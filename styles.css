@@ -2,18 +2,14 @@
 
 /* pixel sizes and background color */
 body {
-  margin: 10px;
+  margin: 10px auto;
   width: 725px;
   background-color: lightgreen;
 }
 
 /* padding to headers */
-h1 {
+h1, h2 {
   padding: 10px;
-}
-
-h2 {
-padding: 10px;
 }
 
 /* padding to paragraphs */
@@ -33,15 +29,21 @@ header img {
   border-radius: 10px;
 }
 
-/* CSS for columns */
-.columns:after {
-  content: "";
-  display: table;
-  clear: both;
+ul {
+  padding-left: 10px;
 }
 
-.column {
-  float: left;
+/* CSS for columns */
+main {
   width: 50%;
-  padding: 10px;
+  height: 500px;
+  background-color: green;
+  float: left;
+}
+
+aside {
+  width: 50%;
+  height: 500px;
+  background-color: green;
+  float: right;
 }
