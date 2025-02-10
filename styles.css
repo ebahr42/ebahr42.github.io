@@ -37,13 +37,13 @@ ul {
 main {
   width: 50%;
   height: 500px;
-  background-color: green;
+  background-color: lightgray;
   float: left;
 }
 
 aside {
   width: 50%;
   height: 500px;
-  background-color: green;
+  background-color: lightgray;
   float: right;
 }
