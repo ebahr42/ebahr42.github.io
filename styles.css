@@ -25,8 +25,8 @@ li {
 
 /* blue border with rounded corners to img */
 .bluetouch {
-  border: 3px blue;
-  border-radius: 10px;
+  border: 3px solid blue;
+  border-radius: 500px;
 }
 
 ul {
