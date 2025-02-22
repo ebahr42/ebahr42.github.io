@@ -3,7 +3,7 @@
 /* pixel sizes and background color */
 body {
   margin: 10px auto;
-  width: 725px;
+  max-width: 90%;
   background-color: lightgreen;
 }
 
@@ -27,6 +27,9 @@ li {
 .bluetouch img {
   border: 3px solid blue;
   border-radius: 500px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 ul {
@@ -34,16 +37,67 @@ ul {
 }
 
 /* CSS for columns */
-main {
-  width: 50%;
-  height: 500px;
+main, aside {
+  width: 48%;
+  height: auto;
   background-color: lightgray;
   float: left;
 }
 
 aside {
-  width: 50%;
-  height: 500px;
+  width: 48%;
+  height: auto;
   background-color: lightgray;
   float: right;
+}
+
+/* CSS for the navigation bar */
+.nav-bar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-bar li {
+  padding: 10px;
+}
+
+.nav-bar li a {
+  color: darkgreen;
+  padding: 14px 20px;
+  display: block
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+  main {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  aside {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .nav-bar li {
+    text-align: center;
+    width: 100%;
+  }
+
+  body {
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
 }
