@@ -40,14 +40,14 @@ ul {
 main, aside {
   width: 48%;
   height: auto;
-  background-color: lightgray;
+  background-color: white;
   float: left;
 }
 
 aside {
   width: 48%;
   height: auto;
-  background-color: lightgray;
+  background-color: white;
   float: right;
 }
 
