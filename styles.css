@@ -26,8 +26,8 @@ li {
 /* blue border with rounded corners to img and transition for hover */
 .bluetouch img {
   border: 6px solid lightgray;
-  border-radius: 400px;
-  max-width: 90%;
+  border-radius: 20px;
+  max-width: 98%;
   height: 250px;
   display: block;
   transition: opacity 0.3s ease out;
