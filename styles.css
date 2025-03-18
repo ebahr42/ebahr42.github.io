@@ -37,6 +37,12 @@ li {
   content: url('images/Dirt Bike.jpg');
 }
 
+.graphic img {
+  max-width: 98%;
+  height: 250px;
+  display: block;
+}
+
 ul {
   padding-left: 10px;
 }
