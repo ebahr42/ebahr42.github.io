@@ -82,7 +82,34 @@ aside {
   display: block
 }
 
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+table {
+  width: 98%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: left;
+}
+
+th {
+    font-size: 1.2em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+}
+
 /* media queries */
+@media screen and (max-width: 470px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
 @media screen and (max-width: 900px) {
   main {
     width: 100%;
